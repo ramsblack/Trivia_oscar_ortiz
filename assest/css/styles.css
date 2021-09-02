@@ -64,6 +64,7 @@ select{
     width: 15%;
     height: 15%;
     justify-content:flex-end;
+
 }
 
 #container{
@@ -80,6 +81,25 @@ select{
     justify-content: space-around;
    
     
+}
+
+.actualizar_id{
+    height: 2.2rem;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    /* padding: 10px; */
+    border-radius: 5rem;
+    border-color: #EEEEEE;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+}
+
+.actualizar_id:hover{
+    background-color: midnightblue;
+    color: navajowhite;
+    border-color: midnightblue ;
 }
 
 .boo-button{
